@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: codeinsights
-        image: index.docker.io/sourcegraph/codeinsights-db:insiders@sha256:290959786a7186109241cc0437fadb23bb36200ab2016079439d77d353c2ffca
+        image: index.docker.io/sourcegraph/codeinsights-db:insiders@sha256:2fda635e0a39bee7c763b5af574cbb87aa7b021fdbc7e3d9799c01595dc70ab6
         env:
         - name: POSTGRES_DB
           value: postgres
